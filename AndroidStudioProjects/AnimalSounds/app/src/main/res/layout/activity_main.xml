@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#99ff99"
+                android:padding="20dp"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="แตะรูปภาพเพื่อฟังเสียงสัตว์"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/pig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/pig" />
+
+    <ImageView
+        android:id="@+id/dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pig"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/pig"
+        android:src="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pig"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/dog"
+        android:src="@drawable/cat" />
+
+    <ImageView
+        android:id="@+id/elephant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pig"
+        android:layout_below="@+id/pig"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/elephant" />
+
+    <ImageView
+        android:id="@+id/horse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dog"
+        android:layout_alignTop="@+id/elephant"
+        android:src="@drawable/horse" />
+
+    <ImageView
+        android:id="@+id/cow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cat"
+        android:layout_alignTop="@+id/elephant"
+        android:src="@drawable/cow" />
+
+    <ImageView
+        android:id="@+id/bird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pig"
+        android:layout_below="@+id/elephant"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bird" />
+
+    <ImageView
+        android:id="@+id/duck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dog"
+        android:layout_alignTop="@+id/bird"
+        android:src="@drawable/duck" />
+
+    <ImageView
+        android:id="@+id/rooster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cat"
+        android:layout_alignTop="@+id/bird"
+        android:src="@drawable/rooster" />
+
+</RelativeLayout>

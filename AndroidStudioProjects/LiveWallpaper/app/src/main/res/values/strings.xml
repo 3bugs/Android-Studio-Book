@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LiveWallpaper</string>
+    <string name="service_name">My First live wallpaper</string>
+    <string name="description">ตัวอย่าง live wallpaper</string>
+</resources>

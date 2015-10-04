@@ -1,0 +1,7 @@
+<resources>
+    <array name="difficulty">
+        <item>@string/easy_label</item>
+        <item>@string/medium_label</item>
+        <item>@string/hard_label</item>
+    </array>
+</resources>

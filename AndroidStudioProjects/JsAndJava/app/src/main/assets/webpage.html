@@ -1,0 +1,19 @@
+<html>
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=TIS-620">
+   <script language="JavaScript">
+      function callJS(arg) {  // เราจะใช้โค้ดจาวาในแอนดรอยด์เรียกมายังฟังก์ชั่นนี้
+         document.getElementById('replaceme').innerHTML = arg;
+      }
+   </script>
+</head>
+
+<body style="padding: 20px" bgcolor="lightpink">
+<p>
+   <a href="#" onclick="window.android.callJava('Hello from Browser')">
+      เรียก Java จาก JavaScript</a>
+</p>
+
+<div id="replaceme"></div>
+</body>
+</html>

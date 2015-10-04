@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:facebook="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:padding="32dp"
+              tools:context=".MainActivity">
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        facebook:com_facebook_confirm_logout="false"
+        facebook:com_facebook_tooltip_mode="never_display"/>
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        facebook:com_facebook_preset_size="normal"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Username"/>
+
+    <Button
+        android:id="@+id/post_link_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Link"/>
+
+    <Button
+        android:id="@+id/post_picture_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Picture"/>
+
+</LinearLayout>

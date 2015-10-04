@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_new"
+        android:icon="@drawable/file_new"
+        app:showAsAction="always"
+        android:title="สร้างใหม่"/>
+    <item
+        android:id="@+id/menu_open"
+        android:icon="@drawable/file_open"
+        app:showAsAction="always"
+        android:title="เปิด"/>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/file_save"
+        app:showAsAction="always"
+        android:title="บันทึก"/>
+</menu>
